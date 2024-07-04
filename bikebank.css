@@ -1,0 +1,93 @@
+.hero{
+    margin: 35px;
+    margin-top: 5px;
+    margin-bottom: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.logo{
+    width: 130px;
+    height: 100px;
+    }
+
+nav {
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+}
+.login-btn{
+    text-decoration: none;
+    margin-right: 15px;
+    font-weight: 500;
+    color: #333;
+}
+.Download-btn{
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px 40px;
+    color: #fff;
+    background-image: linear-gradient(45deg,#fca7c0,#ff2525);
+    font-size: 15px;
+    border-radius: 30px;
+    border-top-left-radius: 0px;
+}
+.content{
+    margin-top: 6%;
+    max-width: 600px;
+}
+.content h1{
+    font-size: 60px;
+    color: #222;
+    animation-delay: 0.5s;
+}
+.content p{
+    margin: 15px 0 30px;
+    font-weight: 600;
+    color: #333;
+    animation-delay: 0.5s;
+}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px 40px;
+    color: #fff;
+    background-image: linear-gradient(45deg,#fca7c0,#ff2525);
+    font-size: 15px;
+    border-radius: 30px;
+    border-top-right-radius: 0px;
+    animation-delay: 0.8s;
+}
+.btn:hover{
+    border-radius: 30px;
+}
+.frame{
+    width: 480px;
+    position: absolute;
+    bottom: 0;
+    right: 10%; 
+    top: 10%;
+    animation-delay: 0.75s;
+}
+.anime{
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 0.5s linear forwards;
+}
+@keyframes moveup{
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
